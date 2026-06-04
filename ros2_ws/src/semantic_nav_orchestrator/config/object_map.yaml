@@ -1,0 +1,13 @@
+objects:
+  - object_id: cylinder_0001
+    label: cylinder
+    aliases: ["圆柱", "柱子", "cylinder"]
+    position: {x: -0.961, y: 0.717, z: 0.5}
+    confidence: 1.0
+    status: active
+  - object_id: box_0001
+    label: box
+    aliases: ["箱子", "方块", "box"]
+    position: {x: -0.958, y: 2.778, z: 0.5}
+    confidence: 1.0
+    status: active

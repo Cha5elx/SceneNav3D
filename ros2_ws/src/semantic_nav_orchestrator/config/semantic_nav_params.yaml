@@ -1,0 +1,5 @@
+semantic_nav:
+  ros__parameters:
+    approach_distance: 0.8
+    clearance: 0.25
+    candidate_count: 16

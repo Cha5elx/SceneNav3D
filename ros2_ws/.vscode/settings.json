@@ -1,0 +1,15 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/chase/3d-slam-perception/ros2_ws/build/fishbot_application",
+        "/home/chase/3d-slam-perception/ros2_ws/install/fishbot_application/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/chase/3d-slam-perception/ros2_ws/build/fishbot_application",
+        "/home/chase/3d-slam-perception/ros2_ws/install/fishbot_application/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

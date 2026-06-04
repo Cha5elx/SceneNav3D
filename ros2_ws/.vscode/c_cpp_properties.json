@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/chase/3d-slam-perception/ros2_ws/install/nav2_custom_controller/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/chase/3d-slam-perception/ros2_ws/src/fishbot_navigation2/include/**",
+        "/home/chase/3d-slam-perception/ros2_ws/src/nav2_custom_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
