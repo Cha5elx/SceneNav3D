@@ -1,6 +1,8 @@
-# 3D-SLAM-Perception
+# SceneNav3D
 
 基于 ROS2 Humble、FishBot 仿真和 Nav2 的自然语言语义导航项目。
+
+仓库地址：`https://gitee.com/cha5elx/SceneNav3D`
 
 当前仓库的 V1 版本已经完成一个确定性语义导航闭环：
 
@@ -76,7 +78,7 @@ V1 是一个确定性 MVP，不包含在线 3D 感知和大模型 grounding。
 ## 构建
 
 ```bash
-cd ~/3d-slam-perception/ros2_ws
+cd ~/SceneNav3D/ros2_ws
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 source install/setup.bash
@@ -85,7 +87,7 @@ source install/setup.bash
 首次构建后，每个新终端都先执行：
 
 ```bash
-cd ~/3d-slam-perception/ros2_ws
+cd ~/SceneNav3D/ros2_ws
 source /opt/ros/humble/setup.bash
 source install/setup.bash
 ```
@@ -129,7 +131,7 @@ ros2 run fishbot_application waypoint_follower
 先按照上一节启动 Gazebo、Nav2 和 `init_robot_pose`，再打开一个新终端启动语义导航节点：
 
 ```bash
-cd ~/3d-slam-perception/ros2_ws
+cd ~/SceneNav3D/ros2_ws
 source /opt/ros/humble/setup.bash
 source install/setup.bash
 ros2 launch semantic_nav_orchestrator semantic_navigation.launch.py
@@ -207,7 +209,7 @@ objects:
 运行纯 Python 单元测试：
 
 ```bash
-cd ~/3d-slam-perception/ros2_ws
+cd ~/SceneNav3D/ros2_ws
 source /opt/ros/humble/setup.bash
 export PYTEST_DISABLE_PLUGIN_AUTOLOAD=1
 colcon test --packages-select semantic_nav_orchestrator

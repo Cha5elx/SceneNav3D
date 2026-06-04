@@ -1,4 +1,4 @@
-# Step-by-Step Coding Prompts for 3D-MLLM-SLAM
+# Step-by-Step Coding Prompts for SceneNav3D
 
 ## How to Use This File
 
